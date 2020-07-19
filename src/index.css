@@ -1,13 +1,118 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.vertical {
+  align-items: center;
+  line-height: 0;
+}
+.vertical .padding {
+  padding: 0px;
+}
+.color {
+  background-color: lightgrey;
+}
+
+.justify {
+  align-items: center;
+  padding: 20px;
+}
+.iconMargin {
+  padding-left: 15px;
+}
+.parameter-container {
+  display: flex;
+  background-color: white;
+  border-radius: 0.25rem;
+  align-items: center;
+  border: 1px solid #ced4da;
+  padding-left: 0;
+}
+.parameterInputStyle {
+  width: 83%;
+  border: none;
+  box-shadow: none;
+}
+.parameterInputStyle:focus {
+  box-shadow: none;
+}
+.removeRoleIcon {
+  color: lightcoral;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+.removeRoleIcon:hover {
+  text-decoration: none;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  color: lightcoral;
+}
+.addRuleIcon {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.addRuleIcon:hover {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.parameterDeleteIcon {
+  color: grey;
+}
+.conditionsContainer {
+  align-items: center;
+}
+.paragraphStyle {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+.textAlignment {
+  text-align: center;
+  padding-right: 0;
+}
+.form-control {
+  font-size: 0.9rem;
+  padding: 0;
+  text-indent: 1em;
+  height: 28px;
+}
+.parameter-delete-icon {
+  visibility: hidden;
+}
+.add-rule-icon {
+  visibility: hidden;
+}
+.parameter-container > input {
+  padding: 0;
+  text-indent: 1em;
+  height: 28px;
+}
+
+.confirm-button-style {
+  background-color: #e47416;
+  border-color: #e47416;
+  height: 28px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1;
+  margin-right: 10px;
+}
+.confirm-button-style:disabled {
+  background-color: #e47416;
+  border-color: #e47416;
+}
+.cancel-button-style {
+  height: 28px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1;
+  margin-right: 10px;
 }
